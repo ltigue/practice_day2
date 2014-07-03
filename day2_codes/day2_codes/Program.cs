@@ -10,6 +10,24 @@ namespace day2_codes
     {
         static void Main(string[] args)
         {
+           
+            int result = AddNumbers(10, 5);
+            Console.WriteLine(result);
+            
+           
         }
+        public static int AddNumbers(int number1, int number2)
+        {
+            int result = number1 + number2;
+            if (result > 10)
+            {
+                return result;
+            }
+            return 0;
+        }
+
+
+        
     }
+
 }
